@@ -14,5 +14,9 @@ export default defineConfig(({ mode }) => {
             open: true,
             port: parseInt(env.PORT) || 4200,
         },
+        preview:{
+            open: true,
+            port: parseInt(env.PORT) || 4200,
+        }
     };
 });
